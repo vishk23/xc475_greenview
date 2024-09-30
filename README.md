@@ -1,14 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Greenview
+# Greenview
 
 This is a web application for the Boston University Spark! course XC475. GreenView is a webapp that helps students on campus who want to see a significant environmental impact by helping bridge the gap between their intentions and actions.
 
-## Installation
+# Installation
 
 First, Make sure if NODEJS is installed on your computer.
 
-# Install Dependencies:
+## Install Dependencies:
 
 ```
 npm install
@@ -16,13 +16,13 @@ npm install
 
 It will create `node_module` folder in this all dependency files will be install with this command.
 
-# Update Next.js (Optional):
+## Update Next.js (Optional):
 
 ```
 npm i next@latest react@latest react-dom@latest eslint-config-next@latest
 ```
 
-# Run Project in development mode:
+## Run Project in development mode:
 
 ```bash
 npm run dev
