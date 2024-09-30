@@ -6,7 +6,23 @@ This is a web application for the Boston University Spark! course XC475. GreenVi
 
 ## Installation
 
-First, run the development server:
+First, Make sure if NODEJS is installed on your computer.
+
+# Install Dependencies:
+
+```
+npm install
+```
+
+It will create `node_module` folder in this all dependency files will be install with this command.
+
+# Update Next.js (Optional):
+
+```
+npm i next@latest react@latest react-dom@latest eslint-config-next@latest
+```
+
+# Run Project in development mode:
 
 ```bash
 npm run dev
