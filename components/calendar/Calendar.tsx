@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Calendar as BigCalendar, dateFnsLocalizer } from 'react-big-calendar';
 import { format, parse, startOfWeek, getDay } from 'date-fns';
-import enUS from 'date-fns/locale/en-US';
+import { enUS } from 'date-fns/locale/en-US';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import './calendar.css';
 import CustomToolbar from './CustomToolbar';
@@ -85,22 +85,22 @@ const MyCalendar: React.FC = () => {
       padding: '20px',
       borderLeft: '4px solid #3a5f3f',
       borderRadius: '8px',
-      display: 'flex' as 'flex',
-      flexDirection: 'column' as 'column',
-      justifyContent: 'space-between' as 'space-between',
+      display: 'flex' as const,
+      flexDirection: 'column' as const,
+      justifyContent: 'space-between' as const,
       maxWidth: '300px',
       width: '100%',
       maxHeight: '100%',
       overflow: 'auto',
     },
     dateContainer: {
-      textAlign: 'center' as 'center',
+      textAlign: 'center' as const,
       marginBottom: '20px',
     },
     eventInfo: {
       marginTop: '20px',
-      textAlign: 'left' as 'left',
-      wordWrap: 'break-word' as 'break-word',
+      textAlign: 'left' as const,
+      wordWrap: 'break-word' as const,
     },
     eventLocationTime: {
       marginTop: '10px',
@@ -122,9 +122,9 @@ const MyCalendar: React.FC = () => {
       maxWidth: '200px',
     },
     buttonContainer: {
-      display: 'flex' as 'flex',
-      justifyContent: 'center' as 'center',
-      position: 'relative' as 'relative',
+      display: 'flex' as const,
+      justifyContent: 'center' as const,
+      position: 'relative' as const,
       bottom: '20px',
       width: '100%',
     },
@@ -136,7 +136,7 @@ const MyCalendar: React.FC = () => {
       border: 'none',
       borderRadius: '5px',
       fontSize: '16px',
-      textAlign: 'center' as 'center',
+      textAlign: 'center' as const,
       margin: '64px auto',
     },
     header: {
@@ -149,9 +149,9 @@ const MyCalendar: React.FC = () => {
       margin: '0',
     },
     pageContainer: {
-      display: 'flex' as 'flex',
-      flexDirection: 'column' as 'column',
-      alignItems: 'flex-start' as 'flex-start',
+      display: 'flex' as const,
+      flexDirection: 'column' as const,
+      alignItems: 'flex-start' as const,
       padding: '20px',
     },
   };

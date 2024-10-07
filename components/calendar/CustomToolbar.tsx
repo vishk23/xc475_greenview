@@ -1,5 +1,6 @@
 import React from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const CustomToolbar = (toolbar: any) => {
   const goToBack = () => {
     toolbar.onNavigate('PREV');
